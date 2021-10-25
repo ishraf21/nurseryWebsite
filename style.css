@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Scheherazade New', serif;
+}
+body{
+	background-color: #38383B;
+
+}
+ul{
+	list-style: none;
+}
+
+a,h1,h2,h3,p{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+h1{
+	font-size: 2.3rem;
+}
+header a{
+	font-size: 1.25rem;
+	padding: 0px 2.5px;
+}
+h2{
+	font-size: 4rem;
+	line-height: 1.2;
+}
+h3{
+	font-size: 2.5rem;
+	margin: 0 auto;
+    padding: 10px 0 50px 0;
+}
+p{
+	font-size: 1.25rem;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+button{
+	color: #fff;
+    background-color: #a8a6a1;
+    border-color: #a8a6a1;
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    margin: 1.5rem;
+    letter-spacing: 0.05rem;
+    -webkit-font-smoothing: antialiased;
+}
+.button2{
+	color: #a8a6a1;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    margin: 1.5rem;
+    letter-spacing: 0.05rem;
+    -webkit-font-smoothing: antialiased;
+}
+button:hover,
+input[type="submit"]:hover{
+	opacity: 0.8;
+}
+
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	overflow: hidden;
+	height: 15vh;
+}
+
+
+.menus ul,
+.icons ul{
+	display: flex;
+	
+}
+.menus ul{
+	justify-content: center;
+}
+
+header ul>li{
+	margin: 10px;
+}
+
+.bg{
+	width: 100%;
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5ce6d339a8ffbf0001a8fb20/1558974115131-FRIH01ZG8B6CE3ZSZEVN/Header_02_022-copy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hero{
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+.card{
+	width: 32%;
+	margin: 0px 1.2%;
+}
+
+.card img{
+	width: 100%;
+	height: 70vh;
+}
+
+.flexz{
+	display: flex;
+
+}
+
+.center{
+	display: block;
+	margin: 0px auto;
+}
+
+.padding{
+	padding: 50px 0;
+}
+
+.two{
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5ce6d339a8ffbf0001a8fb20/1560446889060-4SUYLVQXFXB2FIVYC6KM/Header_04_008-copy.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.three{
+	background-color: #A8A6A1;
+}
+
+.card2{
+	width: 45%;
+	margin: 0 2%;
+}
+
+.card2 img{
+	width: 100%;
+	height: 60vh;
+}
+
+.four{
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5ce6d339a8ffbf0001a8fb20/1558974348789-SG3QF5M9PHVZS1JQAYZA/Texture_12_003-1-copy.jpg);
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+form{
+	display: flex;
+	justify-content: center;
+}
+input{
+	padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    margin: 1.5rem;
+}
+input[type="submit"]{
+	background-color: #A8A6A1;
+	color: #fff;
+	letter-spacing: 0.05rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card3{
+	width: 48%;
+	margin: 0 2%;
+}
+.card3 img{
+	width: 100%;
+	height: auto;
+}
+
+.five{
+
+	padding: 100px 0;
+	background-color: #A8A6A1;
+}
+.centerr{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+/*Footer*/
+footer{
+	padding: 20px 0 80px;
+}
+.info li{
+	margin: 0 10px;
+
+}
+.strt{
+	text-align: left;
+}
+.info{
+	width: 70%;
+}
+.info2{
+	margin-top: 10px;
+	width: 15%;
+}
